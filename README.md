@@ -1,55 +1,91 @@
-# 🛠️ YouTube Safety Dock - OBS PLUGIN
+# 🛠️ YouTube Safety Dock - OBS Plugin
 
 <p align="center">
-<img src="https://images.weserv.nl/?url=https://raw.githubusercontent.com/DizaDesire/sin-episodes-mega-fix/refs/heads/main/header.png" alt="LOGO PUGIN" width="100%" />
+<img src="https://images.weserv.nl/?url=https://raw.githubusercontent.com/DizaDesire/obs-youtube-safety-dock/refs/heads/main/header.png" alt="YouTube Safety Dock" width="100%" />
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-red?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/badge/stars-5%20⭐-orange?style=for-the-badge" alt="Stars">
-  <img src="https://img.shields.io/github/issues/DizaDesire/sin-episodes-mega-fix?style=for-the-badge&color=yellow" alt="Issues">
-  <img src="https://img.shields.io/badge/Plugin-Safety%20Dock-blueviolet?style=for-the-badge" alt="Game">
+  <img src="https://img.shields.io/github/stars/DizaDesire/obs-youtube-safety-dock?style=for-the-badge&color=orange" alt="Stars">
+  <img src="https://img.shields.io/github/issues/DizaDesire/obs-youtube-safety-dock?style=for-the-badge&color=yellow" alt="Issues">
+  <img src="https://img.shields.io/badge/OBS-Plugin-blueviolet?style=for-the-badge" alt="OBS Plugin">
 </p>
 
-OBS plugin that adds a dock panel with a countdown for YouTube's first 15 minutes, helping creators remember when stricter language guidelines apply during a livestream.
+<p align="center">
+A lightweight OBS Studio plugin that adds a dock panel with a countdown for YouTube's first 15 minutes of a livestream.
+<br>
+Perfect for creators who want a simple reminder during the initial period when they may prefer to avoid strong language.
+</p>
 
 ---
 
-## 🚀 New Features and Fixes
-* 🎮 **Full Version:** All anti-piracy protections have been disabled
-* ⚙️ **Bug Fixes:** Memory allocation bugs inherited from older branches of the Source Engine have been fixed.
-* 🖥️ **Support for modern operating systems:** smooth performance on Windows 10 and Windows 11.
+## ✨ Features
+
+- ⏱️ **15-Minute Countdown** — Real-time countdown for YouTube's first 15 minutes.
+- 🖥️ **OBS Dock Panel** — Fully integrated into the OBS Studio interface.
+- 🔔 **Never Lose Track** — Quickly see when the initial timer has ended.
+- ⚡ **Lightweight** — Minimal CPU and memory usage.
+- 🪟 **Modern Windows Support** — Compatible with Windows 10 and Windows 11.
 
 ---
 
-## 💾 Installation Guide
+## 📥 Installation
 
-The installation is straightforward. Follow these steps:
+1. Download the latest release from the **Releases** page.
+2. Close OBS Studio if it is currently running.
+3. Copy the plugin files into your OBS Studio installation or plugin directory.
+4. Launch OBS Studio.
+5. Open the dock via:
 
-1. Go to the **[Releases](https://github.com/DizaDesire/sin-episodes-emergence-bin-fix/releases)** page (or download the repository zip).
-2. Navigate to your SiN Episodes: Emergence installation directory. 
-   * *Steam path layout usually is:* `...\Steam\steamapps\common\Sin Episodes Emergence\`
-3. Copy the contents of the `bin` folder from this fix and **paste them directly into the `bin` folder** inside your game directory.
-4. Overwrite/Replace the existing files when prompted by Windows.
-5. Launch the game and enjoy!
-
----
-
-## ⚠️ Requirements & Compatibility
-* **Game Version:** Fully compatible with the official Steam / Retail version of SiN Episodes: Emergence.
-* **OS:** Windows 7 / 8 / 10 / 11 (x64).
-* Make sure to back up your original `bin` folder before applying this patch, just in case.
+```
+View → Docks → YouTube Safety Dock
+```
 
 ---
 
-## 🛠️ Built With & Credits
-* **Engine:** Source Engine SDK
-* **Developer:** [DizaDesire](https://github.com/DizaDesire)
+## 📖 Usage
+
+1. Start OBS Studio.
+2. Open **YouTube Safety Dock** from the **View → Docks** menu.
+3. Start your YouTube livestream.
+4. The dock will display a live countdown for the first 15 minutes.
+5. Once the timer reaches **00:00**, you're notified that the countdown has finished.
+
+---
+
+## ⚙️ Requirements
+
+- OBS Studio 31+
+- Windows 10 / Windows 11 (64-bit)
+
+---
+
+## 🛠️ Built With
+
+- OBS Studio Plugin API
+- C++
+- CMake
+
+---
+
+## 👨‍💻 Developer
+
+**DizaDesire**
+
+GitHub: https://github.com/DizaDesire
+
+---
 
 ## 📄 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for details.
 
 ---
+
 <p align="center">
-  Developed with 🧠 by DizaDesire • If this fix helped you, feel free to leave a ⭐!
+Made with ❤️ for the OBS Studio community.
+<br>
+If this plugin is useful, consider leaving a ⭐ on GitHub!
 </p>
