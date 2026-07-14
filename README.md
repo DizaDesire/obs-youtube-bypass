@@ -38,7 +38,7 @@ I developed this plugin/module to help with self-control and discipline when rec
 7. Enjoy, the timer will start automatically when you start recording or manually through the settings panel inside the plugin. The plugin is completely automatic, updates come automatically, you don’t need to do anything, your data is not transferred anywhere and is stored in the local session of the running OBS.
 
 ```
-View → Docks → YouTube Safety Dock
+Dock panels → Custom dock → YouTube Safety Dock
 ```
 
 ## ⚙️ Requirements
