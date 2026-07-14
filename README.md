@@ -12,46 +12,34 @@
 </p>
 
 <p align="center">
-A lightweight OBS Studio plugin that adds a dock panel with a countdown for YouTube's first 15 minutes of a livestream.
+## What is this for?
 <br>
-Perfect for creators who want a simple reminder during the initial period when they may prefer to avoid strong language.
+I developed this plugin/module to help with self-control and discipline when recording videos for YouTube. The issue is that YouTube has introduced new rules prohibiting profanity in the first 15 minutes of a video—which can be challenging—and this tool helps track the time until it is permissible to swear.
 </p>
 
 ---
 
 ## ✨ Features
 
-- ⏱️ **15-Minute Countdown** — Real-time countdown for YouTube's first 15 minutes.
-- 🖥️ **OBS Dock Panel** — Fully integrated into the OBS Studio interface.
-- 🔔 **Never Lose Track** — Quickly see when the initial timer has ended.
-- ⚡ **Lightweight** — Minimal CPU and memory usage.
-- 🪟 **Modern Windows Support** — Compatible with Windows 10 and Windows 11.
+- ⏱️ **Authorization** — Automatic connection, just log in once and the plugin will automatically turn on when OBS starts
+- 🖥️ **OBS Dock Panel** — Modularity, the plugin is developed in web format, which is why you don’t need to install anything, just add a direct link to the plugin in the dock panel and you can use it.
+- ⚡ **Lightweight** — Doesn't load the system in any way, all plugin components are on the server, you don't sacrifice anything.
 
 ---
 
 ## 📥 Installation
 
-1. Download the latest release from the **Releases** page.
-2. Close OBS Studio if it is currently running.
-3. Copy the plugin files into your OBS Studio installation or plugin directory.
-4. Launch OBS Studio.
-5. Open the dock via:
+1. Copy the link to the **plugin**.
+2. Start OBS, click dock-panels -> custom dock-panels.
+3. In the window that opens, insert a link to the plugin into the free input field and set a name for the dockpanel, for example “Timer”.
+4. And click service -> settings websocket
+5. Going to the websocket settings, click show connection information and copy the unique server password.
+6. In the added dock panel, find the settings button and there in the IP and password input field, enter the password and click connect.
+7. Enjoy, the timer will start automatically when you start recording or manually through the settings panel inside the plugin. The plugin is completely automatic, updates come automatically, you don’t need to do anything, your data is not transferred anywhere and is stored in the local session of the running OBS.
 
 ```
 View → Docks → YouTube Safety Dock
 ```
-
----
-
-## 📖 Usage
-
-1. Start OBS Studio.
-2. Open **YouTube Safety Dock** from the **View → Docks** menu.
-3. Start your YouTube livestream.
-4. The dock will display a live countdown for the first 15 minutes.
-5. Once the timer reaches **00:00**, you're notified that the countdown has finished.
-
----
 
 ## ⚙️ Requirements
 
@@ -60,17 +48,9 @@ View → Docks → YouTube Safety Dock
 
 ---
 
-## 🛠️ Built With
-
-- OBS Studio Plugin API
-- C++
-- CMake
-
----
-
 ## 👨‍💻 Developer
 
-**DizaDesire**
+**Diza Desire**
 
 GitHub: https://github.com/DizaDesire
 
