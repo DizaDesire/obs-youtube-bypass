@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-## What is this for?
+What is this for?
 <br>
 I developed this plugin/module to help with self-control and discipline when recording videos for YouTube. The issue is that YouTube has introduced new rules prohibiting profanity in the first 15 minutes of a video—which can be challenging—and this tool helps track the time until it is permissible to swear.
 </p>
